@@ -1,0 +1,21 @@
+import math
+print("========================================")
+print("  KALKULATOR KOORDINAT DUA TITIK")
+print("========================================")
+print("\nMasukkan koordinat Titik A:")
+x1 = float(input("  Masukkan nilai x1: "))
+y1 = float(input("  Masukkan nilai y1: "))
+print("\nMasukkan koordinat Titik B:")
+x2 = float(input("  Masukkan nilai x2: "))
+y2 = float(input("  Masukkan nilai y2: "))
+jarak = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+x_tengah = (x1 + x2) / 2
+y_tengah = (y1 + y2) / 2
+print("\n========================================")
+print("               HASIL UJI")
+print("========================================")
+print(f"Titik A       : ({x1:.2f}, {y1:.2f})")
+print(f"Titik B       : ({x2:.2f}, {y2:.2f})")
+print(f"Jarak         : {jarak:.2f}")
+print(f"Titik Tengah  : ({x_tengah:.2f}, {y_tengah:.2f})")
+print("========================================")

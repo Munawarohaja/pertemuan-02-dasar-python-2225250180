@@ -1,0 +1,6 @@
+print("--- MENGHITUNG NILAI AKHIR ---")
+tugas = float(input("Nilai Tugas: "))
+uts = float(input("Nilai UTS: "))
+uas = float(input("Nilai UAS: "))
+nilai_akhir = (tugas * 0.3) + (uts * 0.3) + (uas * 0.4)
+print(f"Nilai Akhir Anda adalah: {nilai_akhir:.2f}")

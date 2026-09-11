@@ -1,0 +1,8 @@
+print("--- PROGRAM BIODATA ---")
+nama = input("Munawaroh: ")
+nim = input("2225250180: ")
+kelas = input("3B: ")
+print("\n--- DATA DIRI ---")
+print(f"Nama  : {nama}")
+print(f"NIM   : {nim}")
+print(f"Kelas : {kelas}")
